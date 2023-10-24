@@ -192,7 +192,7 @@ on:
         options:
           - ophub
           - angel
-          - yourname
+          - Wittoy
 
 env:
   TZ: Asia/Hong_Kong
