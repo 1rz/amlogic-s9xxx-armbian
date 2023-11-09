@@ -53,14 +53,14 @@ on:
       kernel_sign:
         description: "Set the kernel custom signature"
         required: false
-        default: "-ophub"
+        default: "-shoko"
         type: choice
         options:
           - -ophub
-          - -yourname
+          - -shoko
 
 env:
-  TZ: America/New_York
+  TZ: Asia/Hong_Kong
 
 jobs:
   build:
